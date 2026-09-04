@@ -1,1 +1,19 @@
+# Il progetto Android/iOS viene generato al volo dalla CI
+# (vedi ../.github/workflows/build.yml) con `flutter create .`, quindi
+# non lo committiamo: cosi' resta sempre allineato alla versione di
+# Flutter usata per la build.
+android/
+ios/
+linux/
+macos/
+windows/
+web/
 
+.dart_tool/
+.packages
+build/
+*.iml
+.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
