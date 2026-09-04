@@ -27,7 +27,7 @@ jobs:
         working-directory: mobile-app
         run: |
           if [ ! -d android ]; then
-            flutter create . --platforms=android --org com.marco.toppychat
+            flutter create . --platforms=android --org com.marco.toppychat --project-name toppychat
           fi
 
       - name: Apply custom AndroidManifest
